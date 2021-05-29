@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31, 65, 31);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    position:relative;
+
+}
+
+
+
+
+#i{
+    width:300px;
+    height:300px;
+    background-color: rgb(5, 110, 66);
+    border-radius: 50%;
+}
+#ii{
+    position: absolute;
+    width:200px;
+    height:200px;
+    background-color: rgb(5, 110, 66);
+    border-radius: 50%;
+    
+    transform:translateY(55px);
+    left:305px;
+    
+    
+}
+#iii{
+    position: relative;
+    width:50vw;
+    height:180px;
+    background-color: rgb(31, 65, 31);
+    top:5%;  
+    transform:translateX(-30px);
+    
+}
+#iv{
+    position: absolute;
+    width:40vw;
+    height:25px;
+    background-color: rgb(176, 179, 10);
+    top:20%;  
+    transform:translateX(-30px);
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;     
+    
+}
+#v{
+    position: absolute;
+    width:40vw;
+    height:30px;
+    background-color: rgb(176, 179, 10);
+    top:45%;  
+    transform:translateX(-30px);     
+    
+}
+#vi{
+    position: absolute;
+    width:40vw;
+    height:25px;
+    background-color: rgb(176, 179, 10);
+    top:70%;  
+    transform:translateX(-30px);   
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;  
+    
+}
