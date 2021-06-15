@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* 
+body{
+   
+    background-image: url("/images/mypic3.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: blue;
+    background-blend-mode:darken;
+
+    
+   
+    
+
+} */
+
+*{
+    background-color: rebeccapurple;
+}
+body > #bg {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(204, 204, 204);
+    clip-path: polygon(0% 20%, 0% 0%, 0% 90%, 100% 10%, 0% 20%);
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+    position:absolute;
+    z-index: -1;
+    overflow: hidden;
+   
+
+}
+
+#list ul li{
+     
+    display: inline-block;
+    font-size:22px;
+    margin: 20px;
+    color: whitesmoke;
+    box-shadow: rgb(20px, 21px, 24px, 30px);
+    text-shadow: seagreen(10px, 10px, 10px, 10px);
+    position: relative;
+    background-color: rgb(37, 37, 37);
+    background-blend-mode: lighten;
+    left: 40%;
+    
+    border-radius: 0.2rem;
+    overflow: hidden;
+    
+   
+}
+#phone{
+    height: 350px;
+    width: 200px;
+    background-color: rgb(25, 89, 100);
+    position: absolute;
+    top: 40%;
+    right:10%;
+    border-radius: 1rem;
+    border:1px solid black;
+   
+    overflow: hidden;
+    transform: rotate(30deg);
+    
+
+    }
+#cnt{
+    height: 270px;
+    width: 170px;
+    background-color: whitesmoke;
+    position: absolute;
+    left:15px;
+    top:20px;
+    overflow: hidden;
+}
+#cnt2{
+    height: 40px;
+    width: 40px;
+    background-color: whitesmoke;
+    position: absolute;
+    left:78px;
+    top:300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+@keyframes blink{
+    0%
+    {
+        background-color: teal;
+    }
+    50%
+    {
+        background-color: indianred;
+    }
+    100%
+    {
+        background-color: blue;
+    }
+   
+}
+@-webkit-keyframes blink{
+    0%
+    {
+        background-color: teal;
+    }
+    50%
+    {
+        background-color: indianred;
+    }
+    100%
+    {
+        background-color: blue;
+    }
+}
+#img{
+    position: absolute;
+    top:10px;
+    left:100px;
+    
+}
