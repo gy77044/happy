@@ -1,0 +1,109 @@
+body{ 
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  position: fixed;
+  background: #d5dbe3;
+  padding: 20px;
+  width: 100%;
+  height: 20px;
+}
+
+.left_area h3{
+  color: #151517;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span{
+  color: #944121;
+}
+
+.logout_button{
+  padding: 5px;
+  background: #198303;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: .5s;
+  transition-property: background;  
+}
+
+.logout_button:hover{
+  background: #8ea0ed;
+
+}
+
+.sidebar{
+  background: #2f323a;
+  margin-top: 9px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 170px;
+  height: 100%;
+}
+
+.sidebar .client_Logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+
+}
+.sidebar h4{
+  color: #acc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    transition: .5s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #8ea0ed;
+
+}
+
+.sidebar i{
+  padding-right: 10px;
+  
+}
+
+.client_bar{
+  position: fixed;
+  background: #ed8e8e;
+  padding: 20px;
+  width: 100%;
+  height: 20px;
+}
+
+.right_area
+{
+    position:relative;
+    width:80%;
+    height:600px;
+    left:10%;
+    margin:60px;
+    background-color: rgb(247, 240, 240);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
