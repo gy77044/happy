@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    background-color: cadetblue;
+    margin: 0;
+    min-height: 100vh;
+
+}
+#border{
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color:darkgray;
+    border: 2px solid black;
+}
+#head{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(158, 50, 50);
+    left:25%;
+    top:5%;
+    border-radius: 37% 63% 70% 30% / 52% 31% 69% 48%;
+
+}
+#chest-left{
+    display: flex;
+    position:relative;
+    top:205px;
+    left: -80px;
+
+    width: 80%;
+    height: 85%;
+    background-color: black;
+    border-radius:72% 28% 16% 84% / 95% 94% 6% 5% 
+
+}
+
+#tie{
+    display: flex;
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    left:40px;
+    top:10px;
+    width: 50px;
+    height: 95%;
+    background-color: rgb(97, 40, 26);
+    border-radius: 100% 0% 100% 50% / 97% 0% 100% 3% ;
+
+}
+
+#chest-right{
+    display: flex;
+    position:relative;
+    left: 200px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius:38% 62% 1% 99% / 100% 54% 46% 0%;
+
+}
+#hair{
+    display: flex;
+    position: absolute;
+    top:-210px;
+    right:-130px;
+    width: 100%;
+    height: 100px;
+    background-color:black;    
+    border-radius: 40% 60% 31% 69% / 3% 91% 9% 97%  ;
+
+}
+#eye-left{
+    display: flex;
+    position: absolute;
+    top:-100px;
+    right:-60px;
+    width: 35px;
+    height: 10px;
+    background-color:white;    
+    border-radius: 40% 60% 31% 69% / 3% 91% 9% 97%  ;
+
+}
+#eye-right{
+    display: flex;
+    position: absolute;
+    top:-110px;
+    right:20px;
+    width: 35px;
+    height: 10px;
+    background-color:white;    
+    border-radius: 40% 60% 31% 69% / 3% 91% 9% 97%  ;
+
+}
+
+#mouth{
+    display: flex;
+    position: absolute;
+    top:-60px;
+    right:-40px;
+    width: 85px;
+    height: 20px;
+    background-color:white;    
+    border-radius: 40% 60% 31% 69% / 3% 91% 9% 97%  ;
+
+}
